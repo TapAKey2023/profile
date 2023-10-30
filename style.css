@@ -1,0 +1,87 @@
+body{
+  background-color: #8d99ae;
+  font-family: "Courier New";
+  text-align: center;
+  padding: 25px;
+
+}
+.backdrop{
+  background-image: url("/profile/images/IMG_5063.jpg");
+  background-size: 925px 450px;
+  border-radius: 20px;
+  border: 0px;
+  padding: 16px;
+
+}
+
+h1{
+  font-family: "Copperplate";
+  color: #8f2d56;
+  text-align: center;
+  line-height: 25px;
+  font-size: 40px;
+}
+b{
+  font-family: "Copperplate";
+  color: #284b63;
+  text-align: center;
+  font-size: 25px;
+  line-height: 32px;
+
+}
+h2{
+  font-family: "Copperplate";
+  color: #284b63;
+  text-align: center;
+  font-size: 30px;
+  line-height: 25px;
+}
+Text{
+  font-family: "Copperplate";
+  color: #284b63;
+  text-align: center;
+  line-height: 0px;
+  font-size: 22px;
+}
+p{
+  font-family: "Courier New";
+  color: #284b63;
+  text-align: center;
+  line-height: 2px;
+  font-size: 20px;
+
+}
+ul{
+  font-family: "Courier New";
+  color: #0d3b66;
+  text-align: center;
+  list-style-position: inside;
+}
+div{
+  background-color: white;
+  padding: auto;
+  width: 875px;
+  margin: auto;
+  border-radius: 5px;
+  border: 2px solid #EAEAEA;
+  box-shadow: 0 0 4px rgba(1,1,2,0.1)
+}
+#div-Intro{
+  background-color: white;
+  padding: auto;
+  width: 900px;
+  border-radius: 10px;
+}
+img{
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  border: 2px solid #EAEAEA;
+}
+
+@media (max-width: 500px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
